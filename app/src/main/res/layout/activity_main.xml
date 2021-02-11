@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:freezesText="false"
+
+        android:gravity="clip_horizontal|center"
+        android:text="A terem újra nyitásához be kell tartani sajnálatos módon pár tényezőt. Négyzetméterenként egy ember tartózkodhat a teremben, tehát egyszerre nálunk csak 8 ember lehet egy időben. Edzeni csak előjegyzés alapján lehetséges, amelyet az alkalmazással megtehettek. Mindenki másfél órás időtartamot kap amit tudtok foglalni. Kérem, mindenki csak akkor foglaljon és azt az időpontot amikor biztos el tud jönni. Ne vegyük el mástól a lehetőséget. Egy nap egy ember csak egy alkalmat foglalhat le. Ha véletlen mégse tudtok a foglalt időontban megjelenni, amint lehetőség van rá, töröljétek a foglalást, más fel tudja venni."
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mainActivityBookingButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/mainActivityBookingManagementButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Booking Management"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivityBookingButton"
+        app:layout_constraintStart_toStartOf="@+id/mainActivityBookingButton"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivityBookingButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivityBookingManagementButton"
+        app:layout_constraintStart_toStartOf="@+id/mainActivityBookingManagementButton"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivityBookingManagementButton"
+        app:srcCompat="@drawable/ico_light" />
+
+    <TextView
+        android:id="@+id/mainLogOutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/ic_exit"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/log_out"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

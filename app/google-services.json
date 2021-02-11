@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "959957064412",
+    "project_id": "henger-90660",
+    "storage_bucket": "henger-90660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959957064412:android:b6328046f826b1cbc47219",
+        "android_client_info": {
+          "package_name": "eu.hybase.henger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959957064412-41mpufl7epi5rotshf06ts89vk8jquqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPaCrQcb1hA5BntVF-Q9k9rLq1tjHPYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959957064412-41mpufl7epi5rotshf06ts89vk8jquqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

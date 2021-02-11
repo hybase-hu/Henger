@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">6Henger</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_name">Your Name</string>
+
+    <string name="please_enter_your_phone_number_and_full_name_to_login">Please, enter your phone number and full name to login.</string>
+    <string name="today">TODAY</string>
+    <string name="tomorrow">TOMORROW</string>
+    <string name="after_tomorrow">AFTER TOMORROW</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="or_login">OR LOGIN</string>
+    <string name="full_name_required">Full Name is required</string>
+    <string name="phone_number_required">Phone number is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="email_required">Email is required</string>
+    <string name="email_not_valid">Email is not valid</string>
+    <string name="password_less_then_six">Password lenght less then six</string>
+    <string name="registration">Registration</string>
+    <string name="log_out">Log Out</string>
+    <string name="please_login_your_email_and_password">Please Login your email and password</string>
+</resources>

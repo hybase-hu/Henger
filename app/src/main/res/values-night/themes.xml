@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Henger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryVariant">@color/dark</item>
+        <item name="colorOnPrimary">@color/red</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="EditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/yellow</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="boxStrokeColor">@drawable/edit_box_color_selector</item>
+        <item name="android:textColorHighlight">@color/yellow</item>
+        <item name="hintTextColor">@color/grey</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="EditTextTextColor">
+        <item name="colorControlNormal">@color/blue</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>
